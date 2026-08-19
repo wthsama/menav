@@ -1,0 +1,68 @@
+# 用户配置：全站基础配置
+
+title: 我的收藏
+siteTitle: 我的收藏
+description: 个人网站收藏导航
+author: wthsama
+favicon: menav.svg
+logo_text: 收藏
+
+icons:
+  mode: favicon
+  region: cn
+
+security:
+  allowedSchemes:
+    - http
+    - https
+    - mailto
+    - tel
+
+theme:
+  mode: dark
+
+fonts:
+  source: css
+  cssUrl: 'https://fontsapi.zeoseven.com/292/main/result.css'
+  preload: true
+  family: LXGW WenKai
+  weight: normal
+
+profile:
+  title: wthsama 的收藏夹
+  subtitle: 精选网站 · 一站直达
+
+rss:
+  enabled: true
+  cacheDir: dev
+  fetch:
+    timeoutMs: 10000
+    totalTimeoutMs: 60000
+    concurrency: 5
+    maxRetries: 1
+    maxRedirects: 3
+  articles:
+    perSite: 8
+    total: 50
+    summaryMaxLength: 200
+
+github:
+  username: 'wthsama'
+  heatmapColor: 37b24d
+  cacheDir: dev
+
+social:
+  - name: GitHub
+    url: https://github.com/wthsama
+    icon: fab fa-github
+  - name: Telegram
+    url: https://web.telegram.org
+    icon: fab fa-telegram
+
+navigation:
+  - name: 常用
+    icon: fas fa-star
+    id: common
+  - name: 书签
+    icon: fas fa-bookmark
+    id: bookmarks

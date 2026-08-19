@@ -1,0 +1,31 @@
+title: 常用
+subtitle: quick access
+
+categories:
+  - name: 常用
+    icon: 'fas fa-star'
+    sites:
+      - name: 'ChatGPT'
+        url: 'https://chatgpt.com/'
+        description: 'OpenAI 对话助手'
+      - name: 'DeepSeek'
+        url: 'https://chat.deepseek.com/'
+        description: '探索未至之境'
+      - name: '豆包'
+        url: 'https://www.doubao.com/chat/?type=tab'
+        description: '字节跳动 AI 助手'
+      - name: '哔哩哔哩'
+        url: 'https://www.bilibili.com/'
+        description: '弹幕视频网站'
+      - name: '百度网盘'
+        url: 'https://pan.baidu.com/'
+        description: '网盘存储'
+      - name: '翻译'
+        url: 'https://www.bing.com/search?q=%E7%BF%BB%E8%AF%91&mkt=zh-CN'
+        description: 'Bing 翻译搜索'
+      - name: '飞牛 NAS'
+        url: 'https://nas.dsxw.eu.cc:446/'
+        description: '外网访问 NAS'
+      - name: 'Gitea'
+        url: 'https://gitea.dsxw.eu.cc:446/'
+        description: '自建 Git 仓库'
